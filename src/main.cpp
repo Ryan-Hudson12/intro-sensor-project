@@ -6,7 +6,7 @@
 namespace {
 
 constexpr auto kChipPath = "/dev/gpiochip0";
-constexpr ::gpiod::line::offset kDoorLineOffset = 17;
+const ::gpiod::line::offset kDoorLineOffset = 17;
 constexpr auto kDebouncePeriod = std::chrono::milliseconds(75);
 
 } // namespace

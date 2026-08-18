@@ -4,6 +4,6 @@
 #include <string>
 #include <chrono>
 
-std::string timeFormatted(system_clock::time_point opened_at);
+std::string timeFormatted(std::chrono::system_clock::time_point opened_at);
 
 #endif
